@@ -16,7 +16,7 @@ class Database
     private $conn;
 
 
-    // DB Connect
+    // Connect database
 
     /**
      * @param  string  $host
@@ -26,10 +26,10 @@ class Database
      */
 
     public function __construct(){
-        $this->host        = 'localhost';
-        $this->db_name     = 'scandiweb';
-        $this->username    = 'nika';
-        $this->password    = 'nikusha_380';
+        $this->host = 'localhost';
+        $this->db_name = 'scandiweb';
+        $this->username = 'nika';
+        $this->password = 'nikusha_380';
     }
 
     /**
