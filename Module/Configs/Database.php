@@ -26,10 +26,10 @@ class Database
      */
 
     public function __construct(){
-        $this->host = 'localhost';
-        $this->db_name = 'scandiweb';
-        $this->username = 'nika';
-        $this->password = 'nikusha_380';
+        $this->host = 'eu-cluster-west-01.k8s.cleardb.net';
+        $this->db_name = 'heroku_4940905bb150b1c';
+        $this->username = 'b97abc60163b62';
+        $this->password = '1c7bc274';
     }
 
     /**
