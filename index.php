@@ -9,9 +9,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 // Headers
 
-$env = parse_ini_file('.env');
-
-header('Access-Control-Allow-Origin: ' . $env['FRONT_URL']);
+header('Access-Control-Allow-Origin: https://nika-mamaladze-scandiweb.netlify.app');
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization');
 header("Access-Control-Allow-Credentials: true");

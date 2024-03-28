@@ -26,11 +26,10 @@ class Database
      */
 
     public function __construct(){
-        $env = parse_ini_file('.env');
-        $this->host = $env['DB_HOST'];
-        $this->db_name = $env['DB_DATABASE'];
-        $this->username = $env['DB_USERNAME'];
-        $this->password = $env['DB_PASSWORD'];
+        $this->host = 'eu-cluster-west-01.k8s.cleardb.net';
+        $this->db_name = 'heroku_4940905bb150b1c';
+        $this->username = 'b97abc60163b62';
+        $this->password = '1c7bc274';
     }
 
     /**
