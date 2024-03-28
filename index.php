@@ -5,9 +5,9 @@ declare(strict_types=1);
 require_once './Module/Configs/Database.php';
 require_once './Module/Modules/Router.php';
 require_once './Module/Models/Product.php';
-
+require_once __DIR__ . '/vendor/autoload.php';
 // Headers
-header('Access-Control-Allow-Origin: http://localhost:5173');
+header('Access-Control-Allow-Origin: https://nika-mamaladze-scandiweb.netlify.app');
 header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization');
 header("Access-Control-Allow-Credentials: true");

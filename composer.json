@@ -1,0 +1,20 @@
+{
+    "name": "ceaiius/scandiweb-back",
+    "description": "PHP API",
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Model\\": "models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ceaiius",
+            "email": "n_mamaladze@cu.edu.ge"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
