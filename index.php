@@ -20,6 +20,10 @@ $database = new \Module\Configs\Database();
 $db = $database->connect();
 $router = new \Module\Modules\Router();
 
+$router->get('/', function (){
+    echo "HELLO";
+});
+
 // Get Products
 
 $router->get('/get', function (){
