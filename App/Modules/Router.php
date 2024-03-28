@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Module\Modules;
+namespace App\Modules;
 
 class Router
 {
