@@ -27,9 +27,9 @@ class Database
 
     public function __construct(){
         $this->host = 'eu-cluster-west-01.k8s.cleardb.net';
-        $this->db_name = 'heroku_4940905bb150b1c';
-        $this->username = 'b97abc60163b62';
-        $this->password = '1c7bc274';
+        $this->db_name = 'heroku_387801b339c230a';
+        $this->username = 'b96eac2c469a9e';
+        $this->password = '72710f7b';
     }
 
     /**
